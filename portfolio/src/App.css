@@ -15,14 +15,21 @@ body {
 
 .bm-item {
   display: inline-block;
+  text-align: center;
   text-decoration: none;
+  line-height: 30px;
   margin-bottom: 10px;
-  color: #d1d1d1;
+  color: white;
   transition: color 0.2s;
 }
 
+.icon {
+  display: flex;
+  
+}
+
 .bm-item:hover {
-  color: white;
+  color: #d1d1d1;
 }
 
 .bm-burger-button {
@@ -34,7 +41,7 @@ body {
 }
 
 .bm-burger-bars {
-  background: #373a47;
+  background: #3895D3;
 }
 
 .bm-cross-button {
@@ -47,7 +54,7 @@ body {
 }
 
 .bm-menu {
-  background: #373a47;
+  background: #3895D3;
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
 }

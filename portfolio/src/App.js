@@ -1,5 +1,6 @@
 import React from 'react';
 import SideBar from './sidebar';
+import Image from './images/femi-oluwatola.jpg';
 
 import './App.css';
 
@@ -8,8 +9,9 @@ export default function App() {
     <div id="App">
       <SideBar />
       <div id="page-wrap">
-        <h1>AppDividend</h1>
-        <h2>Check out our tutorials the side menubar</h2>
+        <img src={Image} alt="Oluwafemi Oluwatola" height="400px" weight="400px"/>
+        <h1>Hi, I'm Oluwafemi,</h1>
+        <h2>a full stack web developer. I make things that make a difference. </h2>
       </div>
     </div>
   );
