@@ -1,12 +1,18 @@
 import React from 'react';
+import SideBar from './sidebar';
+import Image from './images/femi-oluwatola.jpg';
+
 import './App.css';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      
+    <div id="App">
+      <SideBar />
+      <div id="page-wrap">
+        <img src={Image} alt="Oluwafemi Oluwatola" height="400px" weight="400px"/>
+        <h1>Hi, I'm Oluwafemi,</h1>
+        <h2>a full stack web developer. I make things that make a difference. </h2>
+      </div>
     </div>
   );
 }
-
-export default App;
