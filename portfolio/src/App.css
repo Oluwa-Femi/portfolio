@@ -69,3 +69,14 @@ body {
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
 }
+
+/* #page-wrap .page-button {
+  display: flex;
+  flex-direction: row;
+  padding-right: 30px;
+}
+.page-button .profile {
+  width: 10em;
+  height: 2em;
+  padding: 20px;
+} */

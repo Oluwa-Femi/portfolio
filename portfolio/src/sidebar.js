@@ -18,7 +18,7 @@ export default props => {
         <FontAwesomeIcon icon={faHome} /> Home 
       </a>
 
-      <a className="menu-item" href="/profile">
+      <a className="menu-item" href="./Links/profile.js">
         <FontAwesomeIcon icon={faUser} /> Profile
       </a>
 
