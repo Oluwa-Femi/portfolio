@@ -23,9 +23,8 @@ body {
   transition: color 0.2s;
 }
 
-.icon {
-  display: flex;
-  
+.femi-img {
+  align-content: center;
 }
 
 .bm-item:hover {
