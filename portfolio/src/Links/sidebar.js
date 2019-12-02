@@ -1,9 +1,9 @@
 import React from 'react';
 import { slide as Menu } from 'react-burger-menu';
-import Image from './images/femi-oluwatola.jpg';
+import Image from '../images/femi-oluwatola.jpg';
 
 //Import icons 
-import { faHome, faUser, faLaptop, faFile, faPen, faEnvelope, faUsers } from "@fortawesome/free-solid-svg-icons";
+import { faHome, faUser, faLaptop, faFile, faUsers } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
@@ -18,7 +18,7 @@ export default props => {
         <FontAwesomeIcon icon={faHome} /> Home 
       </a>
 
-      <a className="menu-item" href="./Links/profile.js">
+      <a className="menu-item" href="/profile">
         <FontAwesomeIcon icon={faUser} /> Profile
       </a>
 
@@ -28,14 +28,6 @@ export default props => {
 
       <a className="menu-item" href="/resume">
         <FontAwesomeIcon icon={faFile} /> Resume
-      </a>
-
-      <a className="menu-item" href="/thoughts">
-        <FontAwesomeIcon icon={faPen} /> Thoughts
-      </a>
-
-      <a className="menu-item" href="/contact">
-       <FontAwesomeIcon icon={faEnvelope} /> Contact
       </a>
 
       <a className="menu-item" href="/connect">
