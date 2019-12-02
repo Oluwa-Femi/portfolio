@@ -1,23 +1,23 @@
 import React from 'react';
-import SideBar from './sidebar';
-import Image from './images/femi-oluwatola.jpg';
+import {Route} from "react-router-dom";
+import SideBar from './Links/sidebar';
+import Resume from "./Links/resume";
+import Connect from "./Links/connect";
+import MainPage from "./Links/mainPage";
+import Portfolio from "./Links/portfolio";
+import Profile from "./Links/profile";
 
-import './App.css';
-
-export default function App() {
+function App() {
   return (
-    <div id="App">
-      <SideBar />
-      <div id="page-wrap">
-        <img src={Image} alt="Oluwafemi Oluwatola" height="400px" weight="400px"/>
-        <h1>Hi, I'm Oluwafemi,</h1>
-        <h2>a full stack engineer specializing in front-end and back-end web development.</h2>
-        <h2>I have no room for small dreams.</h2>
-        <div class = "page-button">
-        <button class = "profile">Profile</button>
-        <button class = "portfolio">Portfolio</button>
-        </div>
-      </div>
-    </div>
+    <>
+    <Route path="/" component={MainPage} />
+    <Route path="/resume" component={Resume} />
+    <Route path="/connect" component={Connect} />
+    <Route path="/portfolio" component={Portfolio} />
+    <Route path="/profile" component={Profile} />
+    <Route path="/sidebar" component={SideBar} />
+    </>
   );
 }
+
+export default App;
