@@ -1,13 +1,13 @@
 import React from 'react';
+import {withRouter} from 'react-router-dom';
 import SideBar from './sidebar';
 import Image from '../images/femi-oluwatola.jpg';
 
 import '../App.css';
 
-export default function MainPage() {
+function MainPage() {
   return (
     <div id="App">
-      <SideBar />
       <div id="page-wrap">
         <img src={Image} alt="Oluwafemi Oluwatola" height="400px" weight="400px"/>
         <h1>Hi, I'm Oluwafemi,</h1>
@@ -21,3 +21,5 @@ export default function MainPage() {
     </div>
   );
 }
+
+export default withRouter(MainPage)
