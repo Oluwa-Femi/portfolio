@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, withRouter } from "react-router-dom";
 import { slide as Menu } from "react-burger-menu";
 import Image from "../images/femi-oluwatola.jpg";
 
