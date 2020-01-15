@@ -6,6 +6,7 @@ import "../App.css";
 export default function Profile() {
   return (
     <div id="App">
+      <SideBar />
       <div id="page-wrap2">
         <p>
           <h1>BIO</h1>
