@@ -5,7 +5,8 @@ body {
 
 #App {
   font-family: sans-serif;
-  height: 100vh;
+  font-size: 1rem;
+  min-height: 100vh;
   background: linear-gradient(
       158deg,
       rgba(84, 84, 84, 0.03) 0%,
@@ -139,6 +140,11 @@ body {
   overflow: auto;
 }
 
+#page-wrap img {
+  height: 25rem;
+  border: 1px solid black;
+  border-radius: 5px;
+}
 #page-wrap2 {
   text-align: center;
   overflow: auto;
@@ -154,13 +160,11 @@ body {
   text-decoration: none;
   line-height: 30px;
   margin-bottom: 10px;
-  color: white;
+  color: #ffffff;
   transition: color 0.2s;
 }
 
-.femi-img {
-  align-content: center;
-}
+
 
 .bm-item:hover {
   color: #d1d1d1;
@@ -207,6 +211,11 @@ body {
 
 a{
   text-decoration: none;
+}
+
+Menu img{
+  display: flex;
+  justify-content: center;
 }
 
 /* #page-wrap .page-button {

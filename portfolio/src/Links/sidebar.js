@@ -1,7 +1,8 @@
 import React from "react";
-import { NavLink, withRouter } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { slide as Menu } from "react-burger-menu";
 import Image from "../images/femi-oluwatola.jpg";
+import "../App.css";
 
 //Import icons
 import {
@@ -9,19 +10,23 @@ import {
   faUser,
   faLaptop,
   faFile,
-  faUsers
+  faUsers,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import styled from "styled-components";
+
+const Images = styled.img`
+  height: 100px;
+  display: flex;
+  float: center !important;
+  `;
 
 export default props => {
   return (
     <Menu>
-      <img
-        class="femi-img"
+      <Images 
         src={Image}
-        alt="Oluwafemi Oluwatola"
-        height="100px"
-        weight="100px"
+        alt={`Oluwafemi Oluwatola`}
       />
       <h3>Oluwatola Oluwafemi Blessing</h3>
       <h4>Full Stack Developer</h4>

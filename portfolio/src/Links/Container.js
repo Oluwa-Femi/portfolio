@@ -1,5 +1,5 @@
 import React from 'react';
-import { withRouter,Route,NavLink } from 'react-router-dom'
+import { withRouter,Route} from 'react-router-dom'
 import Resume from "../Links/resume";
 import Connect from "../Links/connect";
 import MainPage from "../Links/mainPage";
@@ -9,13 +9,6 @@ import Profile from "../Links/profile";
 function Container() {
   return (
     <>
-    <nav>
-    <NavLink  to='/'>Home</NavLink>
-    <NavLink to='/resume'>Resume</NavLink>
-    <NavLink to='/connect'>Connect</NavLink>
-    <NavLink to='/portfolio'>Portfolio</NavLink>
-    <NavLink to='/profile'>Profile</NavLink>
-    </nav>
     <main>
     <Route exact path="/" component={MainPage} />
     <Route  path="/resume" component={Resume} />
