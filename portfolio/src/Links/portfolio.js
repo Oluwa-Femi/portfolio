@@ -9,10 +9,17 @@ export default function Portfolio() {
       <SideBar />
       <div id="page-wrap2">
         <h1>Portfolio</h1>
+        {/* <ImageDiv> */}
         {images.map(({ id, src, title, description }) => (
-          <img key={id} src={src} title={title} alt={description} />
+          <img key= { id } src= { src } title= { title } alt= { description } />
         ))}
+        {/* </ImageDiv> */}
       </div>
     </div>
   );
 }
+
+// `ImageDiv = styled.img
+//   display: flex;
+
+// `;
