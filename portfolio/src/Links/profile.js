@@ -38,7 +38,7 @@ export default function Profile() {
             I’ve always sought out opportunities and challenges that are
             meaningful to me. Although my professional path has taken a few
             twists and turns — from a database manager at an audit firm to
-            customer engagement to commercial banking — I've never stopped
+            customer engagement to retail banking — I've never stopped
             engaging my passion to help others and solve problems. Prior to
             joining Lambda, I had considerable work experience in banking and
             auditing. As a relationship manager leading a team of 5 to meet
@@ -53,28 +53,23 @@ export default function Profile() {
           My current experience and skills in front-end include:
           <ul>
             <li>HTML/CSS/Bootstrap</li>
-
             <li>
               TypeScript/JavaScript development: bootstraping, refactoring,
               improving the structure, reliability, build setup;
             </li>
-
             <li>
               Full integration of front-end development using tools like Webpack
               with features like automatic code reload, code minifications,
               multiple environments support, CI/CD, automated testing of
               accessibility, server-side render and visual snapshots.{" "}
             </li>
-
             <li>
               Good sense of design and UX using figma and other prototype
               applications.{" "}
             </li>
-
             <li>
               Huge experience in several JS ecosystems, by having used in the
-              past many libraries like NextJS, React, Redux, Redux-Observable,
-              RxJS, jQuery.{" "}
+              past many libraries like NextJS, React, Redux, jQuery.{" "}
             </li>
           </ul>
           <br />

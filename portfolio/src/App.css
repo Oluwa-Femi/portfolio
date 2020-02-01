@@ -141,8 +141,9 @@ body {
 }
 
 #page-wrap img {
+  margin: 2rem 0 0 0;
   height: 25rem;
-  border: 1px solid black;
+  border: 1px solid palevioletred;
   border-radius: 5px;
 }
 #page-wrap2 {
@@ -216,6 +217,9 @@ a{
 Menu img{
   display: flex;
   justify-content: center;
+}
+h1,h2 {
+  color: palevioletred;
 }
 
 /* #page-wrap .page-button {
