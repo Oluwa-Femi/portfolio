@@ -218,9 +218,9 @@ Menu img{
   display: flex;
   justify-content: center;
 }
-h1,h2 {
+/* h1,h2 {
   color: palevioletred;
-}
+} */
 
 /* #page-wrap .page-button {
   display: flex;
