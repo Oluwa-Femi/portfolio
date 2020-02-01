@@ -218,17 +218,32 @@ Menu img{
   display: flex;
   justify-content: center;
 }
-/* h1,h2 {
-  color: palevioletred;
-} */
 
-/* #page-wrap .page-button {
-  display: flex;
-  flex-direction: row;
-  padding-right: 30px;
+/* SOCIAL STUFF */
+.social-container {
+  background: #eee;
+  padding: 25px 50px;
 }
-.page-button .profile {
-  width: 10em;
-  height: 2em;
-  padding: 20px;
-} */
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+a.social:hover {
+  transform: translateY(-2px);
+}
+a.youtube {
+  color: #eb3223;
+}
+
+a.facebook {
+  color: #4968ad;
+}
+
+a.twitter {
+  color: #49a1eb;
+}
+
+a.instagram {
+  color: black;
+}
