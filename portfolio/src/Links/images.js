@@ -9,8 +9,8 @@ import Image8 from '../images/anywhere-fitness.png';
 
 
 const images = [
-    { id: 1, src: Image1, title: 'Comcal', description: 'Comcal app: an app that aggregates community events'},
-    { id: 2, src: Image2, title: 'Blackwell', description: 'Blackwell site: an online library for students'},
+    { id: 1, src: Image1, title: 'Comcal', },
+    { id: 2, src: Image2, title: 'Blackwell', },
     { id: 3, src: Image3, title: 'Ifemun'},
     { id: 4, src: Image4, title: 'Prisoner-skills'},
     { id: 5, src: Image5, title: 'Wakacharge'},

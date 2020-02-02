@@ -149,9 +149,7 @@ body {
 #page-wrap2 {
   text-align: center;
   overflow: auto;
-  padding-left: 20%;
-  padding-right: 20%;
-  
+  padding: 1.8% 20% 0 20%;
   line-height: 1.5rem;
 }
 

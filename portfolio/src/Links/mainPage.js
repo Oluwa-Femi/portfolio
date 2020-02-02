@@ -18,6 +18,7 @@ function MainPage() {
           a software engineer specializing in front-end and back-end web
           development.
         </h2>
+        <h3>I build products, Innovation is my passion</h3>
         <NavLink className="navlink" exact to="/profile">
           <Button>Profile</Button>
         </NavLink>
