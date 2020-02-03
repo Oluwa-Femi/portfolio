@@ -145,7 +145,11 @@ body {
   height: 25rem;
   border: 1px solid palevioletred;
   border-radius: 5px;
-}
+  }
+  /* @media (max-width: 500px) {
+    height: '2rem';
+    width: 70vw;
+  } */
 #page-wrap2 {
   text-align: center;
   overflow: auto;
