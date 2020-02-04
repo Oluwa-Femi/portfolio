@@ -33,11 +33,11 @@ function MainPage() {
 export default withRouter(MainPage);
 
 const Button = styled.button`
-  background: ${props => (props.primary ? "palevioletred" : "white")};
-  color: ${props => (props.primary ? "white" : "palevioletred")};
+  background: ${props => (props.primary ? "#3895d3" : "white")};
+  color: ${props => (props.primary ? "white" : "#3895d3")};
   font-size: 1em;
   margin: 1em;
   padding: 0.25em 1em;
-  border: 2px solid palevioletred;
+  border: 2px solid #3895d3;
   border-radius: 3px;
 `;
