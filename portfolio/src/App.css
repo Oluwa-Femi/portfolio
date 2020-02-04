@@ -143,7 +143,6 @@ body {
 #page-wrap img {
   margin: 2rem 0 0 0;
   height: 25rem;
-  border: 1px solid palevioletred;
   border-radius: 5px;
   }
   /* @media (max-width: 500px) {
@@ -239,7 +238,7 @@ a.youtube {
 }
 
 a.facebook {
-  color: #4968ad;
+  color: #3895d3;
 }
 
 a.twitter {
@@ -247,5 +246,5 @@ a.twitter {
 }
 
 a.instagram {
-  color: black;
+  color: #3f729b;
 }
