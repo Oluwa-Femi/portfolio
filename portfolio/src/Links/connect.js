@@ -18,7 +18,7 @@ export default function Connect() {
       <div id="page-wrap2">
         <h1>Connect</h1>
         <h2>Say hello! Will ya?</h2>
-        <p>I live on linkedin and twitter, My git is always online, I haven't touched Instagram in 3 years</p>
+        <p>I live on linkedin and twitter, My git is always online,<br /> I haven't touched Instagram in 3 years(won't change anytime soon)</p>
         <div>
           <a
             href="https://www.linkedin.com/in/oluwafemi-oluwatola/"

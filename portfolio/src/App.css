@@ -139,16 +139,22 @@ body {
   text-align: center;
   overflow: auto;
 }
-
+@media screen and (max-width: 500px) {
+  #page-wrap {
+   font-size: 0.8rem;
+  }
+}
 #page-wrap img {
-  margin: 2rem 0 0 0;
-  height: 25rem;
+  margin: 5rem 0 0 0;
+  height: 20rem;
   border-radius: 5px;
   }
-  /* @media (max-width: 500px) {
-    height: '2rem';
-    width: 70vw;
-  } */
+  @media screen and (max-width: 500px) {
+    #page-wrap img{
+     background: red;
+     font-size: 0.8rem;
+    }
+  }
 #page-wrap2 {
   text-align: center;
   overflow: auto;
@@ -224,6 +230,8 @@ Menu img{
 .social-container {
   background: #eee;
   padding: 25px 50px;
+  display: flex;
+  flex-direction: column;
 }
 a.social {
   margin: 0 1rem;
@@ -233,18 +241,18 @@ a.social {
 a.social:hover {
   transform: translateY(-2px);
 }
-a.youtube {
-  color: #eb3223;
+a.linkedin {
+  color: #0e76a8;
 }
 
-a.facebook {
-  color: #3895d3;
+a.github {
+  color: black;
 }
 
 a.twitter {
   color: #49a1eb;
 }
 
-a.instagram {
-  color: #3f729b;
+a.instagram { 
+color:#cc2366;
 }

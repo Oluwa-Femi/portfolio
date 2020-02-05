@@ -13,7 +13,7 @@ function MainPage() {
       <SideBar />
       <div id="page-wrap">
         <img src={Image} alt="Oluwafemi Oluwatola" />
-        <h1>Hi, I'm Femi,</h1>
+        <h1>Hi! I'm Femi,</h1>
         <h2>
           a software engineer specializing in front-end and back-end web
           development.
