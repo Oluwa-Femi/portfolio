@@ -230,13 +230,17 @@ Menu img{
 .social-container {
   background: #eee;
   padding: 25px 50px;
-  display: flex;
-  flex-direction: column;
 }
+
 a.social {
   margin: 0 1rem;
   transition: transform 250ms;
   display: inline-block;
+}
+@media screen and (max-width: 500px) {
+  a.social {
+    padding: 0.5rem;
+  }
 }
 a.social:hover {
   transform: translateY(-2px);
