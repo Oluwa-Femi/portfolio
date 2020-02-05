@@ -7,13 +7,16 @@ import { NavLink } from "react-router-dom";
 import "../App.css";
 import styled from "styled-components";
 
+import { faSmile } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 function MainPage() {
   return (
     <div id="App">
       <SideBar />
       <div id="page-wrap">
         <img src={Image} alt="Oluwafemi Oluwatola" />
-        <h1>Hi! I'm Femi,</h1>
+        <h1>Hi<FontAwesomeIcon className="smile" icon={faSmile} size="1x"/> I'm Femi,</h1>
         <h2>
           a software engineer specializing in front-end and back-end web
           development.
