@@ -1,5 +1,6 @@
 import React from "react";
 import SideBar from "./sidebar";
+import { Form } from 'react-bootstrap';
 
 import "../App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -54,6 +55,9 @@ export default function Connect() {
           >
             <FontAwesomeIcon icon={faInstagram} size="3x" />
           </a>
+        </div>
+        <div class="form">
+          
         </div>
       </div>
     </div>

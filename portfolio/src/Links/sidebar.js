@@ -18,7 +18,8 @@ import styled from "styled-components";
 const Images = styled.img`
   height: 100px;
   display: flex;
-  float: center !important;
+  justify-items: center;
+  margin-left: 5rem;
   `;
 
 export default props => {
