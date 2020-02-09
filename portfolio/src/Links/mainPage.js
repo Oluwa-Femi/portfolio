@@ -3,6 +3,7 @@ import { withRouter } from "react-router-dom";
 import SideBar from "./sidebar";
 import Image from "../images/femi-oluwatola.jpg";
 import { NavLink } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 import "../App.css";
 import styled from "styled-components";
@@ -13,6 +14,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function MainPage() {
   return (
     <div id="App">
+      <Helmet>
+        <title>Femi-Oluwatola</title>
+        <meta name="description" content="Oluwatola Oluwafemi's portfolio" />
+        <meta name="keywords" content="Software engineer,developer,web developer, back-end Engineer, remote developer" />
+      </Helmet>
       <SideBar />
       <div id="page-wrap">
         <img src={Image} alt="Oluwafemi Oluwatola" />
