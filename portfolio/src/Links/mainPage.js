@@ -16,13 +16,23 @@ function MainPage() {
     <div id="App">
       <Helmet>
         <title>Femi-Oluwatola</title>
-        <meta name="description" content="Oluwatola Oluwafemi's portfolio" />
-        <meta name="keywords" content="Software engineer,developer,web developer, back-end Engineer, remote developer" />
+        <meta
+          name="description"
+          content="Oluwatola Oluwafemi Blessing|Software Engineer|Portfolio site"
+        />
+        <meta
+          name="keywords"
+          content="Software engineer,developer,web developer, back-end Engineer, remote developer, Nigeria developer, Nigeria dev, Nigeria remote"
+        />
       </Helmet>
       <SideBar />
       <div id="page-wrap">
         <img src={Image} alt="Oluwafemi Oluwatola" />
-        <h1>Hi<FontAwesomeIcon className="smile" icon={faSmile} size="1x"/> I'm Femi,</h1>
+        <h1>
+          Hi
+          <FontAwesomeIcon className="smile" icon={faSmile} size="1x" /> I'm
+          Femi,
+        </h1>
         <h2>
           a software engineer specializing in front-end and back-end web
           development.
