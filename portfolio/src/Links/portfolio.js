@@ -29,7 +29,8 @@ export default function Portfolio() {
           I have the source code{" "}
           <a href="https://github.com/Oluwa-Femi">here</a>
         </p>
-        <Lightbox
+        
+        {/* <Lightbox
           images={images}
           renderImageFunc={(idx, image, title, description) => {
             return (
@@ -42,7 +43,7 @@ export default function Portfolio() {
               />
             );
           }}
-        />
+        /> */}
       </div>
     </div>
   );
