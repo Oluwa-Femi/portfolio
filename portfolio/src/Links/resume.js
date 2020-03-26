@@ -2,7 +2,7 @@ import React from "react";
 import SideBar from "./sidebar";
 import { Helmet } from "react-helmet";
 
-import pdf from "../images/Femi-Oluwatola-resume.jpg";
+import pdf from "../images/Oluwafemi-Oluwatola-resume.jpg";
 export default function Resume() {
   return (
     <div id="App">
