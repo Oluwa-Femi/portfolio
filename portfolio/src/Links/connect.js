@@ -33,9 +33,8 @@ export default function Connect() {
         </div>
         <h2>Say hello! Will ya?</h2>
         <p>
-          I live on linkedin and twitter, My git is always online,
-          <br /> I haven't touched Instagram in 3 years(won't change anytime
-          soon)
+          Connect 
+          <br />
         </p>
         <div>
           <a

@@ -59,44 +59,6 @@ export default function Profile() {
           roles have sharpened my communication skills, fine-tuned my
           presentation experience and enhanced my leadership qualities.
         </p>
-        <br />
-        <h2>FRONT-END WEB DEVELOPMENT</h2>
-        My current experience and skills in front-end include:
-        <ul>
-          <li>HTML/CSS/Bootstrap</li>
-          <li>
-            TypeScript/JavaScript development: bootstraping, refactoring,
-            improving the structure, reliability, build setup;
-          </li>
-          <li>
-            Full integration of front-end development using tools like Webpack
-            with features like automatic code reload, code minifications,
-            multiple environments support, CI/CD, automated testing of
-            accessibility, server-side render and visual snapshots.{" "}
-          </li>
-          <li>
-            Good sense of design and UX using figma and other prototype
-            applications.{" "}
-          </li>
-          <li>
-            Huge experience in several JS ecosystems, by having used in the past
-            many libraries like NextJS, React, Redux, jQuery.{" "}
-          </li>
-        </ul>
-        <br />
-        <h2>BACK-END WEB DEVELOPMENT</h2>
-        <p>
-          In back-end, my current stack is NodeJS. I make use of Node JS,
-          Express and MySQL to craft Web Servers and build API’s for consumption
-          by client-side applications. I use these skills to be in charge of
-          building out the back-end API for projects. I combine this with a vast
-          knowledge in database querying; making use of mongoDB, sqlite or
-          PostgreSQL.I also refactor existing applications, by improving code
-          readibility, separating concerns into separate
-          functions/classes/modules, taking the business logic out from your
-          request/response layer into separate modules (DDD), and moving the app
-          architecture into an event-based one.
-        </p>
       </div>
     </div>
   );
